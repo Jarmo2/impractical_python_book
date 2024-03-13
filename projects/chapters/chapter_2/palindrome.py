@@ -2,7 +2,7 @@
 
 import load_dictionary
 
-FILE_LOCATION = '../../../12dicts-6.0.2/International/2of4brif.txt'
+FILE_LOCATION = '../../../12dicts/International/2of4brif.txt'
 
 WORDS = load_dictionary.load(FILE_LOCATION)
 
@@ -18,4 +18,4 @@ def palindrome_checker() -> list[str]:
 result = palindrome_checker()
 
 print(f"\nNumber of Palindromes found: {len(result)}")
-print(*result, sep='\n')
+print(*result, sep='\n')m
